@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiComm_VerifyPopupShow.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiComm_VerifyPopupShow">
+
+    <ShellContent Title="Home"
+				  ContentTemplate="{DataTemplate local:MainPage}"
+				  Route="MainPage" />
+
+    <ShellContent Title="OnAppearing"
+				  ContentTemplate="{DataTemplate local:OnAppearingPage}"
+				  Route="OnAppearingPage" />
+    
+    <ShellContent Title="OnNavigatedTo"
+				  ContentTemplate="{DataTemplate local:OnNavigatedToPage}"
+				  Route="OnNavigatedToPage" />
+
+    <ShellContent Title="OnLoaded"
+				  ContentTemplate="{DataTemplate local:OnLoadedPage}"
+				  Route="OnLoadedPage" />
+</Shell>
